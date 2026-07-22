@@ -4,7 +4,7 @@ accelerate==0.25.0
 build
 colored
 cuda-python==12.5.0
-diffusers==0.27.0
+diffusers==0.38.0
 numpy<2
 onnx>=1.12.0
 polygraphy==0.49.9
@@ -19,9 +19,9 @@ sentencepiece>=0.1.99
 tensorrt~=10.4.0
 tokenizers>=0.14
 # Default torch is CPU-only on Windows, so need to specify a torch version with GPU support
-torch==2.4.0+cu124
+torch==2.13.0
 nvidia-modelopt[torch]~=0.17.0
-transformers>=4.38.2
+transformers>=5.14.1
 wheel
 optimum
 evaluate
