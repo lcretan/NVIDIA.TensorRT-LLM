@@ -12,4 +12,4 @@ sentencepiece~=0.1.99
 h5py~=3.10.0
 rouge_score
 nltk
-datasets==2.14.6
+datasets==5.0.1
